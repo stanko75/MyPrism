@@ -1,17 +1,17 @@
 ﻿using System.ComponentModel.Composition;
 using System.Windows.Controls;
-using EmployeeModule.ViewModel;
 using Microsoft.Practices.Prism.Regions;
+using ProductModule.ViewModel;
 
-namespace EmployeeModule.View
+namespace ProductModule.View
 {
-  [Export("EmployeeView")]
+  [Export("ProductView")]
   [PartCreationPolicy(CreationPolicy.NonShared)]
   [RegionMemberLifetime(KeepAlive = false)]
-  public partial class EmployeeView : UserControl
+  public partial class ProductView : UserControl
   {
     [ImportingConstructor]
-    public EmployeeView(EmployeeViewModel vm)
+    public ProductView(ProductViewModel vm)
     {
       InitializeComponent();
       this.DataContext = vm;
