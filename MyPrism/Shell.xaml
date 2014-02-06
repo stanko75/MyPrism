@@ -13,7 +13,7 @@
                         VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch">
         </ContentControl>
 
-        <ContentControl Grid.Row="0" prism:RegionManager.RegionName="ProductRegion" 
+        <ContentControl Grid.Row="1" prism:RegionManager.RegionName="ProductRegion" 
                         VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Transparent" 
                         VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch">
         </ContentControl>

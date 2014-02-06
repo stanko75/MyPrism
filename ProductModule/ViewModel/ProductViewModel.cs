@@ -26,6 +26,7 @@ namespace ProductModule.ViewModel
       }
     }
 
+    [ImportingConstructor]
     public ProductViewModel(IProductRepository productRepository)
     {
       this.productRepository = productRepository;
